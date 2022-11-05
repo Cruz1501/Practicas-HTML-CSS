@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilos/Estilos.css">
+    <title>PASTELERIA</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="./Imagenes/Satisfaciendo.jpg">
+        <h2>PASTELERÍA EL JEFE</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a class="Opciones" href="./Principal.html">INICIO</a></li>
+            <li><a class="Opciones" href="#Pedidos">PEDIDOS</a></li>
+            <li><a class="Opciones" href="./Direccion.html">UBICACIÓN</a></li>
+            <li><a class="Opciones" href="#Mas">MAS...</a></li>
+        </ul>
+    </nav>
+
+    <article2 class="fondorepetido">
+        <div class="flex-container2">
+            <div>
+                <fieldset>
+                    <legend>DATOS DE CLIENTE</legend><br>
+                    <label for="nombre1"><b>Nombre:</b></label><br>
+                    <input type="text" id="nombre1" name="nombre1"><br><br>
+                
+                    <label for="apellido1"><b>Apellidos:</b></label><br>
+                    <input type="text" id="apellido1" name="apellido1"><br><br>
+                
+                    <label for="correo1"><b>Correo:</b></label><br>
+                    <input type="email" id="correo1" name="correo1"><br><br>
+                
+                    <label for="tel1"><b>Téfono:</b></label><br>
+                    <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+
+                    <label for="tel1"><b>Dirección:</b></label><br>
+                    <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>DATOS DE PEDIDO</legend><br>
+                    <label for="tamaño"><b>SELECCIONA EL TAMAÑO DE TU PASTEL</b></label><br><br>
+                    <input list="tamaño">
+                    <datalist id="tamaño">
+                        <option value="Chico">
+                        <option value="Mediano">
+                        <option value="Grande">
+                        <option value="Familiar">
+                    </datalist><br><br><br>
+                
+                
+                    <label for="nombre1"><b>SELECCIÓN DE SABORES:</b></label><br><br>
+                    <input type="checkbox" id="sabor1" name="sabor1" value="chocolate">
+                    <label for="sabor1"> Chocolate </label>
+                
+                    <input type="checkbox" id="sabor2" name="sabor2" value="vainilla">
+                    <label for="sabor2"> Vainilla </label>
+                
+                    <input type="checkbox" id="sabor3" name="sabor3" value="fresa">
+                    <label for="sabor3"> Fresa </label><br>
+                
+                    <input type="checkbox" id="sabor4" name="sabor4" value="chocolate">
+                    <label for="sabor4"> Moka </label>
+                
+                    <input type="checkbox" id="sabor5" name="sabor5" value="Car">
+                    <label for="sabor5"> Tres Leches </label><br><br>
+
+                
+                    <label for="nombre1"><b>TIPO DE DECORACIÓN:</b></label><br><br>
+                    <input type="radio" id="personalizada" name="decoracion" value="Personalizada">
+                    <label for="roja">Roja</label>
+                    <input type="radio" id="infantil" name="decoracion" value="Infantil">
+                    <label for="verde">Verde</label>
+                    <input type="radio" id="fiesta" name="decoracion" value="Fiesta">
+                    <label for="guacamole">Guacamole</label><br><br>
+                
+                    <label for="url1"><b>DESCRIPCIÓN DEL PEDIDO:</b></label><br><br>
+                    <textarea type="text" id="url1" name="url1" style="width:300px; height: 100px; ;"></textarea>
+                </fieldset>
+            </div>
+        </div>
+
+        <div class="flex-container2">
+            <div><img src="https://i.pinimg.com/736x/67/34/9e/67349e8c2af1b3eec31c0d286605852b.jpg" style="height:18cm; width:10cm;"></div>
+        </div>
+
+    </article2>
+
+    <footer>
+        <p>© DERECHOS RESERVADOS PASTELERÍA EL JEFE MÉXICO | 2020 | AVISO DE PRIVACIDAD</p>
+    </footer>
+
+</body>
+
+</html>

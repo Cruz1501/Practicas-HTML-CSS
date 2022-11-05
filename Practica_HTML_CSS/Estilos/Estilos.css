@@ -1,0 +1,198 @@
+
+
+body{
+    margin: 0cm;
+  }
+
+  /*Diseño del Encabezado*/
+header{
+    height: 180px;
+    background-color:white;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    margin: 0cm;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(161, 120, 31);
+    text-align: center;
+    line-height: 2cm;
+    font-size: 50px;
+}
+
+img {
+    height: 4.8cm;
+    width: 3.6cm; 
+    margin-right: 1cm;
+}
+
+/*Diseño del Menu y la Sección*/
+nav{
+    height: 30px;
+    background-color: #edece2f1;
+    padding: 20px
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    float: left;
+}
+
+.Opciones {
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: rgb(223, 50, 208);
+    text-decoration:underline;
+    padding: 135px 150px ;   
+}  
+
+section{
+    height: 400px;
+    background-image: url("https://files.nolocreocdn.com/wp-content/uploads/2020/06/96f2a8eb0fe63a31871ff238b60ec8f0.jpg");
+    background-size: 50%;
+  
+}
+
+/*Diseño del Cuerpo de la Pagina */
+
+article1{
+    height: 680px;
+    background-image: url("https://img.freepik.com/vector-premium/dibujo-pegatina-tarta-fresa-icono-pastel-dibujo-vectorial-plano_58032-840.jpg?w=360");
+    background-size: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article2{
+    height: 790px;
+    background-image: url("https://img.freepik.com/vector-premium/dibujo-pegatina-tarta-fresa-icono-pastel-dibujo-vectorial-plano_58032-840.jpg?w=360");
+    background-size: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article2{
+    height: 790px;
+    background-image: url("https://img.freepik.com/vector-premium/dibujo-pegatina-tarta-fresa-icono-pastel-dibujo-vectorial-plano_58032-840.jpg?w=360");
+    background-size: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Diseño de los Contenedores Fleboox*/
+
+.flex-container > div {
+    background-color:#FFF0F5;
+    width: 680px;
+    height: 552px;
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+    line-height: 20px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+div.galeria1 {
+    margin: 0px;
+    float: left;
+    width: 168px;
+    height: 255px;
+    border: 1px solid rgb(16, 14, 14);
+}
+  
+div.galeria1 img {
+    width: 100%;
+    height: 55%;
+}
+  
+div.desc1 {
+    padding: 5px;
+    text-align: center;
+    font-size: 0.5cm;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+div.galeria2 {
+    margin: 0px;
+    float: left;
+    width: 224.5px;
+    height: 510px;
+    border: 1px solid rgb(16, 14, 14);
+}
+  
+div.galeria2 img {
+    width: 100%;
+    height: 60%;
+}
+  
+div.desc2 {
+    padding: 15px;
+    text-align: center;
+    font-size: 0.5cm;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.flex-container2 > div {
+    background-color: rgba(245, 254, 254, 0.964);
+    width: 380px;
+    height: 720px;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    line-height: 15px;
+}
+
+label {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(17, 16, 18);
+    font-style: italic;
+    text-align: center;
+    font-size: 16px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.flex-container3 > div {
+    background-color: rgba(122, 187, 200, 0.964);
+    width: 1200px;
+    height: 720px;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    line-height: 15px;
+}
+
+
+    
+/* Diseño del pie de página */
+
+footer{
+    height: 100px;
+    background-color: #151514f1;
+    opacity: 0.6;
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+
+  
+ 
+  
+  
